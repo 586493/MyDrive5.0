@@ -1,0 +1,5 @@
+.modalFooterBtn {
+    border: 2px solid var(--c03) !important;
+    background-color: var(--c04) !important;
+    color: var(--c01) !important;
+}

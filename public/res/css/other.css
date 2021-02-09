@@ -1,0 +1,30 @@
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.userDataTable {
+    color: var(--c01);
+    border: 1px solid var(--c07);
+    font-size: 95% !important;
+}
+
+.userDataTable > tbody > tr:nth-child(odd) > td,
+.userDataTable > tbody > tr:nth-child(odd) > th {
+    background-color: var(--c06);
+    padding: 0.46rem;
+}
+
+.userDataTable > tbody > tr:nth-child(even) > td,
+.userDataTable > tbody > tr:nth-child(even) > th {
+    background-color: var(--c04);
+    padding: 0.46rem;
+}
+
+.userDataTable > tbody > tr > td.secCol {
+    text-align: end !important;
+}
+

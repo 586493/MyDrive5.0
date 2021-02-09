@@ -1,0 +1,88 @@
+.fileDropdown {
+    color: var(--c01) !important;
+    border: 3px solid var(--c02) !important;
+    background-color: var(--c06) !important;
+}
+
+.fileDropdownText {
+    color: var(--c01) !important;
+    background-color: var(--c06) !important;
+}
+
+.fileDropdownText:hover {
+    color: var(--c01) !important;
+    background-color: var(--c05) !important;
+}
+
+.mimeIconText {
+    /*display: block !important;*/
+    color: var(--c01) !important;
+    text-align: center !important;
+    font-size: 85% !important;
+    font-family: monospace !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+    height: 100% !important;
+    width: 85% !important;
+    margin-right: 14% !important;
+}
+
+.dots {
+    text-align: end !important;
+    font-weight: 900 !important;
+    cursor: pointer !important;
+}
+
+/*vertical-align: top !important;*/
+.textOverflow {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden;: hidden !important;
+}
+
+.fileDiv {
+    color: var(--c01) !important;
+    border: 2px solid var(--c03) !important;
+    background-color: var(--c05) !important;
+    border-radius: 6px !important;
+    font-size: 107% !important;
+}
+
+.fileDiv:hover {
+    background-color: var(--c06) !important;
+}
+
+/* XS */
+@media only screen and (max-width: 600px) {
+    .fileDivSize {
+        width: 83.8vw !important;
+    }
+}
+
+/* S */
+@media only screen and (min-width: 600px) {
+    .fileDivSize {
+        width: 83.8vw !important;
+    }
+}
+
+/* M */
+@media only screen and (min-width: 768px) {
+    .fileDivSize {
+        width: 44vw !important;
+    }
+}
+
+/* L */
+@media only screen and (min-width: 992px) {
+    .fileDivSize {
+        width: 29.6vw !important;
+    }
+}
+
+/* XL */
+@media only screen and (min-width: 1200px) {
+    .fileDivSize {
+        width: 22.3vw !important;
+    }
+}

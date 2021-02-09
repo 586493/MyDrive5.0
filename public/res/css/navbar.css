@@ -1,0 +1,32 @@
+.nav01 {
+    color: var(--c01);
+    background-color: var(--c04);
+    border: 1px solid var(--c08);
+}
+
+.navBtn01 {
+    display: block; /*c*/
+    color: var(--c02);
+    background-color: var(--c05);
+    text-decoration: none;
+    border: 2px solid var(--c02);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navBtn01:hover {
+    background-color: var(--c06);
+}
+
+.navBtn02 {
+    display: block;
+    white-space: nowrap;
+    color: var(--c01);
+    /*background-color: var(--c05);*/
+    text-decoration: none;
+    /*border: 2px solid var(--c01);*/
+    /*border-radius: 5px;*/
+    text-align: center;
+    vertical-align: middle;
+}
